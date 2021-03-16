@@ -1,4 +1,5 @@
 ## https://www.acmicpc.net/problem/2178
+## 난이도 낮음.
 from collections import deque
 
 n, m = map(int,  input().split())
