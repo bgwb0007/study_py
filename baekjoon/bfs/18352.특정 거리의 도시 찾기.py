@@ -24,6 +24,6 @@ for idx, val in enumerate(dist):
     if val == K:
         print(idx)
         count +=1
-if count ==0:
+if count == 0:
     print(-1)
 
