@@ -1,5 +1,9 @@
 print('Test')
 print('test')
 
-lists=[(2,1),(3,3),(1,2)]
-print(sorted(lists))
+A = [(1,1),(2,2),(3,3)]
+temp = []
+temp += A
+temp[1] = (99,9)
+print(temp)
+print(A)
