@@ -1,8 +1,6 @@
-from collections import deque
+import itertools
 
-print('Test')
-print('test')
+data = [1,2,3,4,5]
 
-S = '1'
-for i in range(len(S),0,-1):
-    print(i)
+for i in itertools.combinations(data,3):
+    print(list(i))
